@@ -51,7 +51,7 @@ public class TestDeliveryCard2 {
         $(".notification__title").shouldBe(visible);
         Thread.sleep(5000);
        $(".notification__content").shouldBe(visible)
-              .shouldHave(exactText("Встреча успешно забронирована на " + meetingDate));
+              .shouldHave(exactText("Встреча успешно запланирована на " + meetingDate));
 
         //$(".notification__content").shouldBe(visible)
                 //.shouldHave(exactText("Встреча успешно забронирована на " + generator.generateDate()));
