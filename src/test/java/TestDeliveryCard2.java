@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class TestDeliveryCard2 {
-   DataGenerator.UserInfo userInfo =new DataGenerator.UserInfo();
+   //DataGenerator.UserInfo userInfo =new DataGenerator.UserInfo();
       //DataGenerator generator = new DataGenerator();
     @BeforeEach
     void setup() {
@@ -20,14 +20,15 @@ public class TestDeliveryCard2 {
 
     @Test
     void shouldOrderRepeat() throws InterruptedException {
-
+     DataGenerator.UserInfo userInfo = DataGenerator.Registration.generateUser();
+     String meetingDate = DataGenerator.DateGenerate(4);
        $("[data-test-id='city'] input").setValue(userInfo.getCity());
 
         //$("[data-test-id='city'] input").setValue(generator.generateCity());
         //$("[data-test-id='city'] input").setValue("Краснодар");
 
         $("[data-test-id='date'] input").doubleClick().sendKeys(Keys.BACK_SPACE);
-        $("[data-test-id='date'] input").setValue(userInfo.getDate());
+        $("[data-test-id='date'] input").setValue(meetingDate);
 
         //$("[data-test-id='date'] input").setValue(generator.generateDate());
         //$("[data-test-id='date'] input").setValue("27.12.2021");
@@ -50,7 +51,7 @@ public class TestDeliveryCard2 {
         $(".notification__title").shouldBe(visible);
         Thread.sleep(5000);
        $(".notification__content").shouldBe(visible)
-              .shouldHave(exactText("Встреча успешно забронирована на " + userInfo.getDate()));
+              .shouldHave(exactText("Встреча успешно забронирована на " + meetingDate));
 
         //$(".notification__content").shouldBe(visible)
                 //.shouldHave(exactText("Встреча успешно забронирована на " + generator.generateDate()));
