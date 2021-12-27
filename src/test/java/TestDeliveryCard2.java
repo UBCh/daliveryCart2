@@ -22,27 +22,12 @@ public class TestDeliveryCard2 {
     void shouldOrderRepeat() throws InterruptedException {
      DataGenerator.UserInfo userInfo = DataGenerator.Registration.generateUser();
      String meetingDate = DataGenerator.DateGenerate(4);
+     String meetingDateNew = DataGenerator.DateGenerateNew(7);
        $("[data-test-id='city'] input").setValue(userInfo.getCity());
-
-        //$("[data-test-id='city'] input").setValue(generator.generateCity());
-        //$("[data-test-id='city'] input").setValue("Краснодар");
-
         $("[data-test-id='date'] input").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id='date'] input").setValue(meetingDate);
-
-        //$("[data-test-id='date'] input").setValue(generator.generateDate());
-        //$("[data-test-id='date'] input").setValue("27.12.2021");
-
         $("[data-test-id='name'] input").setValue(userInfo.getName());
-
-        //$("[data-test-id='name'] input").setValue(generator.generateName());
-        //$("[data-test-id='name'] input").setValue("мадама Брошкина");
-
         $("[data-test-id='phone'] input").setValue(userInfo.getPhone());
-
-        //$("[data-test-id='phone'] input").setValue(generator.generatePhone());
-        //$("[data-test-id='phone'] input").setValue("+7967438724");
-
         Thread.sleep(5000);
         $(".checkbox__text").click();
         Thread.sleep(5000);
@@ -52,18 +37,13 @@ public class TestDeliveryCard2 {
         Thread.sleep(5000);
        $(".notification__content").shouldBe(visible)
               .shouldHave(exactText("Встреча успешно запланирована на " + meetingDate));
-
-        //$(".notification__content").shouldBe(visible)
-                //.shouldHave(exactText("Встреча успешно забронирована на " + generator.generateDate()));
-        //$(".notification__content").shouldBe(visible)
-               // .shouldHave(exactText("Встреча успешно запланирована на 27.12.2021"));
-
         Thread.sleep(5000);
         $(".button__text").click();
         Thread.sleep(5000);
         $(".button_size_s ").click();
         Thread.sleep(5000);
-        $(withText("Успешно!")).shouldBe(visible);
+        $(withText("Успешно!")).shouldBe(visible)
+                .shouldHave(exactText("Встреча успешно перепланирована на " + meetingDateNew));
 
     }
 

@@ -25,11 +25,10 @@ public class DataGenerator{
     public static String DateGenerate(int days) {
         return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
-    //public static String generateDate() {
-        //String date = DateGenerate(4);
-       // return date;
-    //}
-    
+
+    public static String DateGenerateNew(int days) {
+        return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+    }
     public static String generateName() {
         String name = faker.name().fullName();
         return name;
