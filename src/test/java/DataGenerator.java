@@ -9,11 +9,12 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-public class DataGenerator{
+public class DataGenerator {
 
 
     private DataGenerator() {
     }
+
     private static Faker faker = new Faker(new Locale("ru"));
 
 
@@ -29,12 +30,13 @@ public class DataGenerator{
     public static String DateGenerateNew(int days) {
         return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
+
     public static String generateName() {
         String name = faker.name().fullName();
         return name;
     }
 
-       private static String generatePhone() {
+    private static String generatePhone() {
         String phone = faker.phoneNumber().phoneNumber();
         return phone;
     }
@@ -45,10 +47,12 @@ public class DataGenerator{
         }
 
         public static UserInfo generateUser() {
-                return new UserInfo(generateCity(), generateName(), generatePhone());
-            }
+
+            return new UserInfo(generateCity(), generateName(), generatePhone());
+        }
 
     }
+
     //@Data
     //@RequiredArgsConstructor
     @Value
@@ -57,6 +61,6 @@ public class DataGenerator{
         String name;
         String phone;
 
-       }
+    }
 
 }
