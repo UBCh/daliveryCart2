@@ -40,10 +40,12 @@ public class TestDeliveryCard2 {
         Thread.sleep(5000);
         $(".button__text").click();
         Thread.sleep(5000);
+     $("[data-test-id='date'] input").doubleClick().sendKeys(Keys.BACK_SPACE);
+     $("[data-test-id='date'] input").setValue(meetingDateNew);
         $(".button_size_s ").click();
         Thread.sleep(5000);
-        $(withText("Успешно!")).shouldBe(visible);
-                //.shouldHave(exactText("Встреча успешно перепланирована на " + meetingDateNew));
+        $(".notification__content").shouldBe(visible)
+                .shouldHave(exactText("Встреча успешно запланирована на " + meetingDateNew));
 
     }
 
