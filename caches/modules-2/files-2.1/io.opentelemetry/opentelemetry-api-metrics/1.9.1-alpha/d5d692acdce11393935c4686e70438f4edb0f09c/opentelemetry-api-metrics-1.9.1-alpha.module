@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-api-metrics",
+    "version": "1.9.1-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3-rc-2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-context",
+          "version": {
+            "requires": "1.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-api-metrics-1.9.1-alpha.jar",
+          "url": "opentelemetry-api-metrics-1.9.1-alpha.jar",
+          "size": 32722,
+          "sha512": "c1ae7499360edb80b28f12214cc734b3e04a47d5bbfe2b9965b52cf60b57303260c07b96586b30cd74ac35cbcf1f58c8367a1be87e860d937c095e1255e244b7",
+          "sha256": "ecf9b4270dc9d92782b9635c2245189f75645a308e2400924f55deb4f99f0a2f",
+          "sha1": "26fd1c6eb0b4db317e6a8cf288d8a91c9e7f03ec",
+          "md5": "272cd8902c4d918876eeb52b1dcb95be"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-context",
+          "version": {
+            "requires": "1.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-api-metrics-1.9.1-alpha.jar",
+          "url": "opentelemetry-api-metrics-1.9.1-alpha.jar",
+          "size": 32722,
+          "sha512": "c1ae7499360edb80b28f12214cc734b3e04a47d5bbfe2b9965b52cf60b57303260c07b96586b30cd74ac35cbcf1f58c8367a1be87e860d937c095e1255e244b7",
+          "sha256": "ecf9b4270dc9d92782b9635c2245189f75645a308e2400924f55deb4f99f0a2f",
+          "sha1": "26fd1c6eb0b4db317e6a8cf288d8a91c9e7f03ec",
+          "md5": "272cd8902c4d918876eeb52b1dcb95be"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-api-metrics-1.9.1-alpha-javadoc.jar",
+          "url": "opentelemetry-api-metrics-1.9.1-alpha-javadoc.jar",
+          "size": 187702,
+          "sha512": "78f66077c56c91a73a248c4616181b98775d43686a6bfc395f15ce858e720babe586fb6f5bc53cac9390afd5368c3775623b87afc6aab2628c1e3150835be4d0",
+          "sha256": "882128b18feb672fd0eed4235c73c3b6815ac663dce2132fef0809b8656ddfc7",
+          "sha1": "5388334ec742c3e530b70f51688a6edc68c07d3a",
+          "md5": "9fbd1104d3ebe856f0358737b9909516"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-api-metrics-1.9.1-alpha-sources.jar",
+          "url": "opentelemetry-api-metrics-1.9.1-alpha-sources.jar",
+          "size": 22308,
+          "sha512": "ca42fb59b55f47df2aed6070ee837ec12a0b8e579f92a65531e506e2108c9de870d5c5e467677ae74b8fb2ea91daf2302df96774e6a96d4cf76fdd6626a82071",
+          "sha256": "e2acb3cab257778b3e967f591d7e0bb2ffe996b4395699865ccab4b90bed47b7",
+          "sha1": "dabb1bfc3543f43c56e408788c80679e59fa7e7c",
+          "md5": "7a6215b85b4e4fd082ded9be3af2d143"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-logs",
+    "version": "1.9.1-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3-rc-2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk",
+          "version": {
+            "requires": "1.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.9.1-alpha.jar",
+          "url": "opentelemetry-sdk-logs-1.9.1-alpha.jar",
+          "size": 36779,
+          "sha512": "d9b9244e20a3de4407a9b22b20a95a689c8c48556830095ca17384693540760f45e9d1ebb7b4d57f2516912c649e987a639f27d9165fe90632d23bacce9630cf",
+          "sha256": "1d0e6dfef6c9009553f9a571a6974eb6200e6426561b12e5ed51027d54759091",
+          "sha1": "89b020be7d47ff4dd736435d32f0e40cb4235bff",
+          "md5": "a62be08eac7994b90895e00b81a71a82"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api-metrics",
+          "version": {
+            "requires": "1.9.1-alpha"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk",
+          "version": {
+            "requires": "1.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.9.1-alpha.jar",
+          "url": "opentelemetry-sdk-logs-1.9.1-alpha.jar",
+          "size": 36779,
+          "sha512": "d9b9244e20a3de4407a9b22b20a95a689c8c48556830095ca17384693540760f45e9d1ebb7b4d57f2516912c649e987a639f27d9165fe90632d23bacce9630cf",
+          "sha256": "1d0e6dfef6c9009553f9a571a6974eb6200e6426561b12e5ed51027d54759091",
+          "sha1": "89b020be7d47ff4dd736435d32f0e40cb4235bff",
+          "md5": "a62be08eac7994b90895e00b81a71a82"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.9.1-alpha-javadoc.jar",
+          "url": "opentelemetry-sdk-logs-1.9.1-alpha-javadoc.jar",
+          "size": 177283,
+          "sha512": "ed45740e7328392bc9ff9537ac13e950adb8ad29316dbf8d3835125a007c2c53c69669f615d37a924e0edd18b5cae66f159995a1d6535fc35c2064be3e79a5ec",
+          "sha256": "fa7c8f2361ccdce8c0d6e26befd0b9a16f6f6d71085008eca0c8afb8828f841c",
+          "sha1": "5ac583a3308d8d1d085ad158c383ba386d4703c2",
+          "md5": "f9fa23a3003840974b37b27d2863b12c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.9.1-alpha-sources.jar",
+          "url": "opentelemetry-sdk-logs-1.9.1-alpha-sources.jar",
+          "size": 21724,
+          "sha512": "043a6e0531aaac12ceaf8b28dbe407c5c96acc92377b764ebbc37c3bc2b15b5a34daf78c550d36d9dba1541c8f3155d921c8983b6856fdd069655a5e7c04276e",
+          "sha256": "0e81f2d7a43f17d58c7fb72258bd041095f833d716f22d6e9b220bd5fc6e4aa5",
+          "sha1": "206a8c0434cf8bfcae11683a7a85c4702dd7b53d",
+          "md5": "d1657ae5315b67a0562ccf75e90f8dde"
+        }
+      ]
+    }
+  ]
+}

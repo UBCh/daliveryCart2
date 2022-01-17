@@ -16,3 +16,4 @@ install:
 build_script:
   - chmod u+x gradlew
   - ./gradlew test --info -Dselenide.headless=true
+  - ./gradlew allureServe

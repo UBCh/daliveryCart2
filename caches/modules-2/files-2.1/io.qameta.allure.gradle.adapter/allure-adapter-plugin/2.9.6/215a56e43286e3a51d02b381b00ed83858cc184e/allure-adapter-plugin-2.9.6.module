@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.qameta.allure.gradle.adapter",
+    "module": "allure-adapter-plugin",
+    "version": "2.9.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "fbsosjg7sff4dk6i2soxxwctba"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "allure-adapter-plugin-2.9.6.jar",
+          "url": "allure-adapter-plugin-2.9.6.jar",
+          "size": 169983,
+          "sha512": "ed1aefe4730ed5e51ba5060de1086acd303473032c762ca21186498c766efbbed033f20b68c572eff7dea0a979e4fa721813c824c67ed3839f0acb5ccc393669",
+          "sha256": "24f2dfcd529eaf751c38b012fd84f76896d8e298ad006184f017293c513cc733",
+          "sha1": "4066dafbcbb94e0cca604c6ac6197d0e57d2a630",
+          "md5": "61438c52da0f602d2e9a685396904be4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.qameta.allure.gradle.base",
+          "module": "allure-base-plugin",
+          "version": {
+            "requires": "2.9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "allure-adapter-plugin-2.9.6.jar",
+          "url": "allure-adapter-plugin-2.9.6.jar",
+          "size": 169983,
+          "sha512": "ed1aefe4730ed5e51ba5060de1086acd303473032c762ca21186498c766efbbed033f20b68c572eff7dea0a979e4fa721813c824c67ed3839f0acb5ccc393669",
+          "sha256": "24f2dfcd529eaf751c38b012fd84f76896d8e298ad006184f017293c513cc733",
+          "sha1": "4066dafbcbb94e0cca604c6ac6197d0e57d2a630",
+          "md5": "61438c52da0f602d2e9a685396904be4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-adapter-plugin-2.9.6-sources.jar",
+          "url": "allure-adapter-plugin-2.9.6-sources.jar",
+          "size": 17843,
+          "sha512": "49d62bf9ddaaa5b5ccf5c8af2dee516ff36c85bfb5c1e15059eeebfe48c52816fc761bf104509a928b96802fabd1878c225f2a312c88061a3057a0d9aec75bd4",
+          "sha256": "0118cf6d234ce16eee92a55252aa3cf78d8d46c1663a688473cc8ef03cb67e3b",
+          "sha1": "c49aff19c1416e42689ac2f9584f8a14a47ad641",
+          "md5": "1f185a036293d49e9f6ac8241e14578c"
+        }
+      ]
+    },
+    {
+      "name": "javadocMainElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-adapter-plugin-2.9.6-javadoc.jar",
+          "url": "allure-adapter-plugin-2.9.6-javadoc.jar",
+          "size": 375504,
+          "sha512": "3436fb6233aad7a33fffa958063c2eeba045311f55bb1ac3d262a8150b79a8b468d98455d33a4325ae2334b46d05df9a950cbf93157d16649e98431eb7ae8091",
+          "sha256": "995717ab7d054fdc811ad2d918595f48fd2bca7be5a3452a0ebf1be727675159",
+          "sha1": "aaa3300aac29a5bda3bac074b94728f14c86b66f",
+          "md5": "cc0b36489d1ccb849b14c5a4de4fce58"
+        }
+      ]
+    }
+  ]
+}

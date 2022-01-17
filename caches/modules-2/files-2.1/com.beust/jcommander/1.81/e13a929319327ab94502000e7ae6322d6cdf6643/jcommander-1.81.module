@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.beust",
+    "module": "jcommander",
+    "version": "1.81",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "5g7fmn5eb5ckfle7vsbkuyqlfm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jcommander-1.81.jar",
+          "url": "jcommander-1.81.jar",
+          "size": 85816,
+          "sha512": "9c4554d246789d5e3a86a2c19b826dd84357358aa77108d2f526691ba622b133ed24406699346b0b7d47dfdb26445e83a872d22a2bf82c6fd36a40af268f2037",
+          "sha256": "9d8b42979c99f3daa99102fe9ba1fb25f52226cb48cf58bc18acb93132e41a05",
+          "sha1": "9ca9dd27bb28e5990ad01aec5bb2989f50b6ff3e",
+          "md5": "8fb20390e744cb6902b06005fabc9a9e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jcommander-1.81.jar",
+          "url": "jcommander-1.81.jar",
+          "size": 85816,
+          "sha512": "9c4554d246789d5e3a86a2c19b826dd84357358aa77108d2f526691ba622b133ed24406699346b0b7d47dfdb26445e83a872d22a2bf82c6fd36a40af268f2037",
+          "sha256": "9d8b42979c99f3daa99102fe9ba1fb25f52226cb48cf58bc18acb93132e41a05",
+          "sha1": "9ca9dd27bb28e5990ad01aec5bb2989f50b6ff3e",
+          "md5": "8fb20390e744cb6902b06005fabc9a9e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.qameta.allure.gradle.report",
+    "module": "allure-report-plugin",
+    "version": "2.9.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "fbsosjg7sff4dk6i2soxxwctba"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "allure-report-plugin-2.9.6.jar",
+          "url": "allure-report-plugin-2.9.6.jar",
+          "size": 103293,
+          "sha512": "d1bc94949d845f6a09cbbe54274f2c57f14d2eb494c04324ff7decc0be6a18403867668d5ebbd5f85cf0a70b3f6ec38f847ffbc41dadc8320d7bd41b5535feeb",
+          "sha256": "51d4af45b5792a697d0715cfb89694640f7a43c79540dc5a9d38233f52aa0c15",
+          "sha1": "129d6aa4088fa82782effc3fd7097e9f7da6e163",
+          "md5": "3e32f3c8bc359b07e191936be1cd5f47"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.qameta.allure.gradle.base",
+          "module": "allure-base-plugin",
+          "version": {
+            "requires": "2.9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "allure-report-plugin-2.9.6.jar",
+          "url": "allure-report-plugin-2.9.6.jar",
+          "size": 103293,
+          "sha512": "d1bc94949d845f6a09cbbe54274f2c57f14d2eb494c04324ff7decc0be6a18403867668d5ebbd5f85cf0a70b3f6ec38f847ffbc41dadc8320d7bd41b5535feeb",
+          "sha256": "51d4af45b5792a697d0715cfb89694640f7a43c79540dc5a9d38233f52aa0c15",
+          "sha1": "129d6aa4088fa82782effc3fd7097e9f7da6e163",
+          "md5": "3e32f3c8bc359b07e191936be1cd5f47"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-report-plugin-2.9.6-sources.jar",
+          "url": "allure-report-plugin-2.9.6-sources.jar",
+          "size": 11437,
+          "sha512": "f48891ba2775f3be622927f5a8a9ab1eb78fb2b5b4308863db59e3ca7d74eef80e4c61a23a892edf299c4d88eecacd265fd7f016a4792e86a3dfb7a1d2cae879",
+          "sha256": "2f46a2f3ff1a73f395db49f3f5954a4cc8b29145be3d54ed25669e39487f961c",
+          "sha1": "ac673eca6e5590c1bfcccd2a05f9e95e66d54d0a",
+          "md5": "edb14e70bf6accd4beb6af806b93f66f"
+        }
+      ]
+    },
+    {
+      "name": "javadocMainElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-report-plugin-2.9.6-javadoc.jar",
+          "url": "allure-report-plugin-2.9.6-javadoc.jar",
+          "size": 352659,
+          "sha512": "b74af7f69dd5b29c6379be7e22047e4758be6625abca967617a9b840e5ea937805f5de4646d68e3cf93123bb9a665bee84072f28bebe2ba9b1fc74bc0b2453d0",
+          "sha256": "0bc895a414cc4ed7db205afb21fe3a907687e7b3ddc91d67b33133d32110ff02",
+          "sha1": "9456261beefb6ebf765578f7df868b80cb50f7b8",
+          "md5": "42480dbbfae3183a66e530b0e5415c39"
+        }
+      ]
+    }
+  ]
+}

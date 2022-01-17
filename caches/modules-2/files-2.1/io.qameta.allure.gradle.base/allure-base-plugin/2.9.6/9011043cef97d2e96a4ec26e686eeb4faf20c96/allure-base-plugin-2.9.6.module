@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.qameta.allure.gradle.base",
+    "module": "allure-base-plugin",
+    "version": "2.9.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "fbsosjg7sff4dk6i2soxxwctba"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "allure-base-plugin-2.9.6.jar",
+          "url": "allure-base-plugin-2.9.6.jar",
+          "size": 30878,
+          "sha512": "a60a0d1fc69bc66df97ea3ec74a4da8b4d48a45212b259ec4e06bb745141913ff1877af2a51e244bcddd7ef30af4a1a2d2a12e325e5a7876d4af3177bdd379fa",
+          "sha256": "c9c8ff659fa003f2aaa35e7c81f485fadec6d02022aedc00d965b1cdc923f4eb",
+          "sha1": "26ed4ea2a470c70287d8cadbe5ff9d18131f5b5f",
+          "md5": "bd9cfbeb00213c74d04c037c1adb5fc7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "allure-base-plugin-2.9.6.jar",
+          "url": "allure-base-plugin-2.9.6.jar",
+          "size": 30878,
+          "sha512": "a60a0d1fc69bc66df97ea3ec74a4da8b4d48a45212b259ec4e06bb745141913ff1877af2a51e244bcddd7ef30af4a1a2d2a12e325e5a7876d4af3177bdd379fa",
+          "sha256": "c9c8ff659fa003f2aaa35e7c81f485fadec6d02022aedc00d965b1cdc923f4eb",
+          "sha1": "26ed4ea2a470c70287d8cadbe5ff9d18131f5b5f",
+          "md5": "bd9cfbeb00213c74d04c037c1adb5fc7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-base-plugin-2.9.6-sources.jar",
+          "url": "allure-base-plugin-2.9.6-sources.jar",
+          "size": 6942,
+          "sha512": "12d68feba1d99f4a293f9ede282df31d178dc7df3472b04803fd09224a8dff8eae201c14bfde1353641ed081142713f000f4045e635328a6fd62729888af4943",
+          "sha256": "5820d3d7deb2ae11aa6b0811bd7080d8f629f6d89154414e09b3fb1d6bfb2bd8",
+          "sha1": "3d78fa75dc2452e9f12bfa4271265d2b485e982d",
+          "md5": "3bfc7b56aa960cb466a21cae3151c7f1"
+        }
+      ]
+    },
+    {
+      "name": "javadocMainElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-base-plugin-2.9.6-javadoc.jar",
+          "url": "allure-base-plugin-2.9.6-javadoc.jar",
+          "size": 328397,
+          "sha512": "2b91763fc00e36bfafb3b716ca02b61be36fe3ad7d7343961adba356d6a680f6bc1cf3e6d811f819f065f1231a4a4f717f63af416a39b378f8748ad903ccec0d",
+          "sha256": "9f533670a4045901c4bae0e6e5495b9194cbc28a31485b8cb06b81f8eb2f1b6a",
+          "sha1": "b9f178e51a7eea58e44fffe8dd88e54a34167c2b",
+          "md5": "c97eba863465c886551aa9234348b2a4"
+        }
+      ]
+    }
+  ]
+}
